@@ -13,7 +13,6 @@
 4. Add filters on table data
 5. Add token for prevent XSRF
 
-=========Setting Contact=========
 Step 1: Add service providers to config/app.php
 Foostart\Contact\ContactServiceProvider::class,
 Foostart\Slideshow\SlideshowServiceProvider::class,
