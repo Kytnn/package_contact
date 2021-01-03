@@ -1,9 +1,7 @@
-@webiste: http://foostart.com
-
-@package-name: sample
-@author: Kang
-@date: 27/12/2017
-@version: 2.0
+@package-name: package_contacts
+@author: Nhom A
+@date: 27/12/2020
+@version: 1.0
 
 @features
 
