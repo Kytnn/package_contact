@@ -14,12 +14,17 @@
 Step 1: Add service providers to config/app.php
 
 Foostart\Contact\ContactServiceProvider::class,
+
 Foostart\Slideshow\SlideshowServiceProvider::class,
-Foostart\Filemanager\FilemanagerServiceProvider::class,Intervention\Image\ImageServiceProvider::class,
+
+Foostart\Filemanager\FilemanagerServiceProvider::class,
+
+Intervention\Image\ImageServiceProvider::class,
 
 Step 2: Install publish
 
 php artisan vendor:publish --provider="Foostart\Contact\ContactServiceProvider" --force
+
 php artisan vendor:publish --provider="Foostart\Slideshow\SlideshowServiceProvider" --force
 
 Step 3: And add class aliases
@@ -29,4 +34,5 @@ Step 3: And add class aliases
 Step 4: Publish the package’s config and assets:
 
 php artisan vendor:publish --tag=lfm_config
+
 php artisan vendor:publish --tag=lfm_public
